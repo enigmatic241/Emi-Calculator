@@ -1,0 +1,23 @@
+body{
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+}
+h3{
+    font-family: 'Mansalva', cursive;
+}
+#result{
+    display:none;
+}
+h2{
+    font-weight: bold;
+}
+.box{
+    box-shadow: 0 0 15px rgb(233, 233, 240);
+}
+.line{
+    border: 1px solid royalblue;
+    width:60%;
+}
