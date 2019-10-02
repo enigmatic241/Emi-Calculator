@@ -23,14 +23,15 @@
                       <div class="form-group">
                         <div class="input-group">
                           <span class="input-group-addon"></span>
-                          <input type="number" class="form-control" id="amount" placeholder="Amount">
+                          <input type="number" class="form-control" id="amount" placeholder="Principle Amount" step="any" min="0" value="">
                         </div>
                         <div class="input-group pt-3">
                             <span class="input-group-addon"></span>
-                            <input type="number" class="form-control" id="interest" placeholder="Interest">
+                            <input type="number" class="form-control" id="interest" placeholder="Interest" step="any" min="0" value="">
                         </div>
+                        <!-- <h5 class="pt-2">Installment Time</h5> -->
                         <div class="input-group pt-3">
-                            <input type="number" class="form-control" id="time" placeholder="Payment time">
+                            <input type="number" class="form-control" id="time" placeholder="Installment time in year" step="any" min="0" value="">
                         </div>
                         <div class="input-group pt-3">
                             <input type="submit" value="calculate" class="btn btn-dark btn-block">
